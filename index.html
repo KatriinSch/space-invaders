@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Space Invaders</title>
+</head>
+<div class="game">
+    <p>
+        <span>Score:</span> <span id="scoreEl">0</span>
+        <br>
+        <span>Time:</span> <span id="timeEl">0</span><span>s</span>
+        <br>
+        <span>Lives left:</span> <span id="livesEl">3</span>
+    </p>
+    <canvas></canvas>
+</div>
+<div id="startScreen" style="display: flex;">
+    <div>
+        <h1>Space Invaders</h1>
+        <h2>Arrow keys - move</h2>
+        <h2>Space - shoot</h2>
+        <h2>Esc - toggle pause</h2>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+</div>
+<div id="gameOverScreen" style="display: none;">
+    <div>
+        <h1>Game Over</h1>
+        <h2>Score: <span id="gameOverScore">0</span>
+        <br>
+        Time: <span id="gameOverTime">0</span>s</h2>
+        <br>
+        <button onclick="restartGame()">Play Again!</button>
+    </div>
+</div>
+<div id="pauseScreen" style="display: none;">
+    <div>
+        <h1>Game Paused</h1>
+        <button onclick="restartGame()">Restart</button>
+        <button onclick="togglePause()">Continue</button>
+    </div>
+</div>
+<script src="./index.js"></script>
