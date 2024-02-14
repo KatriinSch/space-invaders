@@ -20,7 +20,7 @@ class Player {
         this.opacity = 1
 
         const image = new Image()
-        image.src = './img/spaceship.png'
+        image.src = 'spaceship.png'
         image.onload = () => {
             const scale = 0.5
             this.image = image
@@ -135,7 +135,7 @@ class Invader {
         this.passedPlayer = false
 
         const image = new Image()
-        image.src = './img/invader-1.png'
+        image.src = 'invader-1.png'
         image.onload = () => {
             const scale = 0.06
             this.image = image
