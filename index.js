@@ -287,7 +287,7 @@ function showGameOverScreen() {
     gameOverScoreElement.textContent = score
     gameOverTimeElement.textContent = elapsedTime
     // Show the screen
-    gameOverScreen.style.display = 'flex';
+    gameOverScreen.style.display = 'block';
     clearInterval(timerInterval)
 }
 
@@ -347,7 +347,7 @@ function togglePause() {
         // Pause the game and show the pause screen
         clearInterval(timerInterval)
         const pauseScreen = document.getElementById('pauseScreen')
-        pauseScreen.style.display = 'flex'
+        pauseScreen.style.display = 'block'
     } else {
         // Resume the game and hide the pause screen
         const pauseScreen = document.getElementById('pauseScreen')
