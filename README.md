@@ -2,6 +2,8 @@
 
 This is a ['Space Invaders'](https://en.wikipedia.org/wiki/Space_Invaders) type of game written in [JavaScript](https://en.wikipedia.org/wiki/JavaScript) for Kood/Jõhvi.
 
+It failed the audit but it's still fun to play.
+
 ## How to play
 
 To play the game open the index.html file OR go to this [link]().
