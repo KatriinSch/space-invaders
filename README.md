@@ -6,7 +6,7 @@ It failed the audit but it's still fun to play.
 
 ## How to play
 
-To play the game open the index.html file OR go to this [link]().
+To play the game open the index.html file OR go to this [link](https://katriinsch.github.io/space-invaders/).
 
 The game is simple! Try to stay alive for as long as possible and destroy as many space invaders as you can.
 
