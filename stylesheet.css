@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour');
 body{
-    margin:0;
-    display: flex;
-    justify-content: center;
+    margin: 0;
     font-family: Sixtyfour;
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 .game{
-    position: relative;
-    top: 40px;
+    position: absolute;
     border: dashed darkgreen 3px;
     padding: 20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 p{
     position: absolute;
@@ -43,8 +44,6 @@ button:hover{
     transform: translate(-50%, -50%);
     height: fit-content;
     width: fit-content;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: limegreen;
     padding: 2%;
@@ -58,8 +57,6 @@ button:hover{
     transform: translate(-50%, -50%);
     height: fit-content;
     width: fit-content;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: limegreen;
     padding: 2%;
@@ -73,8 +70,6 @@ button:hover{
     transform: translate(-50%, -50%);
     height: fit-content;
     padding: 2%;
-    width: fit-content;
-    text-align: center;
     color: limegreen;
     margin: 5px;
     border: solid 3px limegreen;
