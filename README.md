@@ -2,7 +2,7 @@
 
 This is a ['Space Invaders'](https://en.wikipedia.org/wiki/Space_Invaders) type of game written in [JavaScript](https://en.wikipedia.org/wiki/JavaScript) for Kood/Jõhvi.
 
-It failed the audit but it's still fun to play.
+It failed the audit because it uses the canvas element but it's still fun to play.
 
 ## How to play
 
@@ -16,4 +16,4 @@ Use the Arrow Keys to move, and the Spacebar to shoot! The Escape key can be use
 
 ## Credit
 
-This project was made by Katriin Schasmin in **2024** following this [video guide](https://www.youtube.com/watch?v=MCVU0w73uKI).
+This project was made by Katriin Schasmin in **2024** following this [video guide](https://www.youtube.com/watch?v=MCVU0w73uKI) by Chris Courses on youtube.
