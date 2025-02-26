@@ -16,4 +16,4 @@ Use the Arrow Keys to move, and the Spacebar to shoot! The Escape key can be use
 
 ## Credit
 
-This project was made by Katriin Schasmin in **2024** following this [video guide](https://www.youtube.com/watch?v=MCVU0w73uKI) by Chris Courses on youtube.
+This project was made by KatriinSch in **2024** following this [video guide](https://www.youtube.com/watch?v=MCVU0w73uKI) by Chris Courses on youtube.
